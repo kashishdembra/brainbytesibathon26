@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ac83537-7395-4df2-b1ad-181d8253e537" name="Changes" comment="Fix DatabaseManager validateUser method and correct PreparedStatement parameters&#10;&#10;- Replaced incorrect hardcoded values (root, 12345) with method parameters&#10;- Fixed SQL execution errors&#10;- Improved testConnection() validation&#10;- Added missing login attempt and IP blocking methods&#10;Add SIDRS main startup logic with DB connection check&#10;i have resolve main class">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6ac83537-7395-4df2-b1ad-181d8253e537" name="Changes" comment="Fix DatabaseManager validateUser method and correct PreparedStatement parameters&#10;&#10;- Replaced incorrect hardcoded values (root, 12345) with method parameters&#10;- Fixed SQL execution errors&#10;- Improved testConnection() validation&#10;- Added missing login attempt and IP blocking methods&#10;Add SIDRS main startup logic with DB connection check&#10;i have resolve main class&#10;set the GUI" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -143,7 +141,23 @@
       <option name="project" value="LOCAL" />
       <updated>1771051735947</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Fix DatabaseManager validateUser method and correct PreparedStatement parameters&#10;&#10;- Replaced incorrect hardcoded values (root, 12345) with method parameters&#10;- Fixed SQL execution errors&#10;- Improved testConnection() validation&#10;- Added missing login attempt and IP blocking methods&#10;Add SIDRS main startup logic with DB connection check&#10;i have resolve main class">
+      <option name="closed" value="true" />
+      <created>1771055608826</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1771055608826</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Fix DatabaseManager validateUser method and correct PreparedStatement parameters&#10;&#10;- Replaced incorrect hardcoded values (root, 12345) with method parameters&#10;- Fixed SQL execution errors&#10;- Improved testConnection() validation&#10;- Added missing login attempt and IP blocking methods&#10;Add SIDRS main startup logic with DB connection check&#10;i have resolve main class&#10;set the GUI">
+      <option name="closed" value="true" />
+      <created>1771055673935</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1771055673935</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -160,7 +174,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fix DatabaseManager validateUser method and correct PreparedStatement parameters&#10;&#10;- Replaced incorrect hardcoded values (root, 12345) with method parameters&#10;- Fixed SQL execution errors&#10;- Improved testConnection() validation&#10;- Added missing login attempt and IP blocking methods" />
     <MESSAGE value="Fix DatabaseManager validateUser method and correct PreparedStatement parameters&#10;&#10;- Replaced incorrect hardcoded values (root, 12345) with method parameters&#10;- Fixed SQL execution errors&#10;- Improved testConnection() validation&#10;- Added missing login attempt and IP blocking methods&#10;Add SIDRS main startup logic with DB connection check" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix DatabaseManager validateUser method and correct PreparedStatement parameters&#10;&#10;- Replaced incorrect hardcoded values (root, 12345) with method parameters&#10;- Fixed SQL execution errors&#10;- Improved testConnection() validation&#10;- Added missing login attempt and IP blocking methods&#10;Add SIDRS main startup logic with DB connection check" />
+    <MESSAGE value="Fix DatabaseManager validateUser method and correct PreparedStatement parameters&#10;&#10;- Replaced incorrect hardcoded values (root, 12345) with method parameters&#10;- Fixed SQL execution errors&#10;- Improved testConnection() validation&#10;- Added missing login attempt and IP blocking methods&#10;Add SIDRS main startup logic with DB connection check&#10;i have resolve main class" />
+    <MESSAGE value="Fix DatabaseManager validateUser method and correct PreparedStatement parameters&#10;&#10;- Replaced incorrect hardcoded values (root, 12345) with method parameters&#10;- Fixed SQL execution errors&#10;- Improved testConnection() validation&#10;- Added missing login attempt and IP blocking methods&#10;Add SIDRS main startup logic with DB connection check&#10;i have resolve main class&#10;set the GUI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix DatabaseManager validateUser method and correct PreparedStatement parameters&#10;&#10;- Replaced incorrect hardcoded values (root, 12345) with method parameters&#10;- Fixed SQL execution errors&#10;- Improved testConnection() validation&#10;- Added missing login attempt and IP blocking methods&#10;Add SIDRS main startup logic with DB connection check&#10;i have resolve main class&#10;set the GUI" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
