@@ -1,4 +1,4 @@
-package com.sidrs;
+//package com.sidrs;
 
 import com.sidrs.gui.LoginWindow;
 import com.sidrs.database.DatabaseManager;
