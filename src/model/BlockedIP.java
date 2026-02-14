@@ -1,3 +1,5 @@
+package model;
+
 import java.sql.Timestamp;
 
 /**
@@ -53,3 +55,4 @@ public class BlockedIP {
         return "BlockedIP{ip='" + ipAddress + "', reason='" + reason + "', permanent=" + isPermanent + "}";
     }
 }
+

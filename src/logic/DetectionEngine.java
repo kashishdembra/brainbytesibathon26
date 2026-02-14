@@ -1,4 +1,6 @@
-import dataBase.DatabaseManager;
+package logic;
+
+import database.DatabaseManager;
 
 /**
  * Detection Engine - Core intrusion detection logic
@@ -105,3 +107,4 @@ public class DetectionEngine {
         NONE, LOW, MEDIUM, HIGH, CRITICAL, BLOCKED
     }
 }
+

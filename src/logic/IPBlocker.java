@@ -1,4 +1,6 @@
-import dataBase.DatabaseManager;
+package logic;
+
+import database.DatabaseManager;
 import model.BlockedIP;
 
 import java.util.List;

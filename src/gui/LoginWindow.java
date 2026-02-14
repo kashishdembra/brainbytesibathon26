@@ -10,10 +10,7 @@ import java.awt.*;
 import java.awt.event.*;
 import java.net.InetAddress;
 
-/**
- * Login Window - Main authentication interface
- * Features: Modern dark theme, security monitoring, animated feedback
- */
+
 public class LoginWindow extends JFrame {
 
     private JTextField usernameField;
@@ -265,4 +262,3 @@ public class LoginWindow extends JFrame {
         dashboard.setVisible(true);
     }
 }
-

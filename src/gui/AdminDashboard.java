@@ -76,6 +76,7 @@ public class AdminDashboard extends JFrame {
         add(mainPanel);
     }
 
+
     private JPanel createHeader() {
         JPanel header = new JPanel(new BorderLayout());
         header.setBackground(UIStyles.BG_CARD);
@@ -169,11 +170,17 @@ public class AdminDashboard extends JFrame {
 
         JLabel titleLbl = new JLabel(title);
         titleLbl.setFont(UIStyles.FONT_BODY);
-        titleLbl.setForeground(UIStyles.TEXT_SECONDARY);
+
+        // 🔴 UPDATED TITLE COLOR
+        titleLbl.setForeground(Color.WHITE);
+
         titleLbl.setAlignmentX(Component.LEFT_ALIGNMENT);
 
         valueLabel.setFont(new Font("Segoe UI", Font.BOLD, 36));
-        valueLabel.setForeground(accentColor);
+
+        // 🔴 UPDATED NUMBER COLOR
+        valueLabel.setForeground(Color.WHITE);
+
         valueLabel.setAlignmentX(Component.LEFT_ALIGNMENT);
 
         card.add(titleLbl);
@@ -528,3 +535,4 @@ public class AdminDashboard extends JFrame {
         }
     }
 }
+

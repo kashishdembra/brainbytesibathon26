@@ -1,8 +1,7 @@
+package model;
+
 import java.sql.Timestamp;
 
-/**
- * LoginAttempt Model - Represents a login attempt record
- */
 public class LoginAttempt {
     private int id;
     private String username;
@@ -10,8 +9,6 @@ public class LoginAttempt {
     private String status;
     private Timestamp attemptTime;
     private String userAgent;
-
-    // Constructors
     public LoginAttempt() {}
 
     public LoginAttempt(String username, String ipAddress, String status) {
@@ -19,8 +16,6 @@ public class LoginAttempt {
         this.ipAddress = ipAddress;
         this.status = status;
     }
-
-    // Getters and Setters
     public int getId() { return id; }
     public void setId(int id) { this.id = id; }
 
@@ -52,3 +47,4 @@ public class LoginAttempt {
         return "LoginAttempt{username='" + username + "', ip='" + ipAddress + "', status='" + status + "'}";
     }
 }
+
