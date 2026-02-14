@@ -11,7 +11,7 @@ import javax.swing.*;
  */
 public class Main {
 
-    public static <LoginWindow> void main(String[] args) {
+    public static void main(String[] args) {  // FIXED: Removed <LoginWindow>
 
         // Set system look and feel
         try {
@@ -42,7 +42,7 @@ public class Main {
         // Start GUI on Event Dispatch Thread
         SwingUtilities.invokeLater(() -> {
             LoginWindow loginWindow = new LoginWindow();
-            loginWindow.notifyAll();
+            loginWindow.setVisible(true);  // FIXED: Changed notifyAll() to setVisible(true)
         });
 
         System.out.println("SIDRS - Security System Started");
