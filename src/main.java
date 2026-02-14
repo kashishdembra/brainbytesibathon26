@@ -1,23 +1,28 @@
-//package com.sidrs;
-
-import com.sidrs.gui.LoginWindow;
-import com.sidrs.database.DatabaseManager;
+import gui.LoginWindow;
+import database.DatabaseManager;
 
 import javax.swing.*;
 
+/**
+ * SIDRS - Security Intrusion Detection & Response System
+ * Main entry point for the application
+ *
+ * @author SIDRS Team - Sibathon 2024
+ */
 public class Main {
 
-    public static void main(String[] args) {
+    public static <LoginWindow> void main(String[] args) {
 
+        // Set system look and feel
         try {
             UIManager.setLookAndFeel(
                     UIManager.getSystemLookAndFeelClassName()
             );
         } catch (Exception e) {
-            e.printStackTrace();
+            System.err.println("Failed to set Look & Feel");
         }
 
-        // Test database connection before starting GUI
+        // Check database connection before launching GUI
         if (!DatabaseManager.testConnection()) {
 
             JOptionPane.showMessageDialog(
@@ -34,10 +39,10 @@ public class Main {
             System.exit(1);
         }
 
-        // Launch GUI safely
+        // Start GUI on Event Dispatch Thread
         SwingUtilities.invokeLater(() -> {
             LoginWindow loginWindow = new LoginWindow();
-            loginWindow.setVisible(true);
+            loginWindow.notifyAll();
         });
 
         System.out.println("SIDRS - Security System Started");
