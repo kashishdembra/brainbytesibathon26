@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ac83537-7395-4df2-b1ad-181d8253e537" name="Changes" comment="Fix DatabaseManager validateUser method and correct PreparedStatement parameters&#10;&#10;- Replaced incorrect hardcoded values (root, 12345) with method parameters&#10;- Fixed SQL execution errors&#10;- Improved testConnection() validation&#10;- Added missing login attempt and IP blocking methods&#10;Add SIDRS main startup logic with DB connection check" />
+    <list default="true" id="6ac83537-7395-4df2-b1ad-181d8253e537" name="Changes" comment="Fix DatabaseManager validateUser method and correct PreparedStatement parameters&#10;&#10;- Replaced incorrect hardcoded values (root, 12345) with method parameters&#10;- Fixed SQL execution errors&#10;- Improved testConnection() validation&#10;- Added missing login attempt and IP blocking methods&#10;Add SIDRS main startup logic with DB connection check">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,28 +51,17 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/mysql-connector-j-9.5.0/mysql-connector-j-9.5.0/mysql-connector-j-9.5.0.jar",
-    "project.structure.last.edited": "SDKs",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="SIDRS" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="SIDRS" />
-      <option name="filePath" />
-      <method v="2" />
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
